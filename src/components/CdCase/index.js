@@ -8,26 +8,26 @@ import iMissSummer from "../../images/album-art/ims.png"
 import "../Header/header.css"
 import "./cdCase.css"
 
-const StyledHeading = styled.p`
-	font-size: 175%;
-	text-decoration: none;
-	font-family: "Roslindale";
-	src: url("../../fonts/RoslindaleText-Regular.woff") format("woff");
-	color: black;
-	top: 0;
-	right: 0;
-	margin: 0.5em 0.5em;
-	position: absolute;
-	color: ${({ main }) => main ? '#555' : 'transparent'};
-	transform: ${({ main }) => main ? 'translate(3px, -3px)' : 'none'};
-	-webkit-text-stroke: 1.2px #555;
+// const StyledHeading = styled.p`
+// 	font-size: 175%;
+// 	text-decoration: none;
+// 	font-family: "Roslindale";
+// 	src: url("../../fonts/RoslindaleText-Regular.woff") format("woff");
+// 	color: black;
+// 	top: 0;
+// 	right: 0;
+// 	margin: 0.5em 0.5em;
+// 	position: absolute;
+// 	color: ${({ main }) => main ? '#555' : 'transparent'};
+// 	transform: ${({ main }) => main ? 'translate(3px, -3px)' : 'none'};
+// 	-webkit-text-stroke: 1.2px #555;
 	
-	&:hover {
-		color: ${({ main }) => main ? '#777' : 'transparent'};
-		-webkit-text-stroke: 1.2px #777;
-		transition: 0.7s;
-	}
-`
+// 	&:hover {
+// 		color: ${({ main }) => main ? '#777' : 'transparent'};
+// 		-webkit-text-stroke: 1.2px #777;
+// 		transition: 0.7s;
+// 	}
+// `
 
 const StyledArtworkContainer = styled.div`
 	display: flex;
@@ -38,7 +38,7 @@ const StyledArtworkContainer = styled.div`
 	@media (max-width: 500px) {
 		flex-direction: column;
 		width: 70vw;
-		transform: translateY(-40px);
+		transform: translateY(-100px);
 	}
 `
 

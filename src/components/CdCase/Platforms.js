@@ -57,12 +57,6 @@ const Links = styled.div`
 	}
 `
 
-const Container = styled.div`
-	width: 100%;
-	display: flex;			
-	justify-content: space-between;
-`
-
 const Platforms = () => (
 	<StyledDiv>
 	<Spotify />
