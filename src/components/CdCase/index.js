@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from 'react-router-dom';
 import Platforms from "./Platforms"
 import styled from 'styled-components'
-
 import rryEp from "../../images/album-art/rryEp.jpg"
 import iMissSummer from "../../images/album-art/ims.png"
 
