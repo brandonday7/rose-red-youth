@@ -6,8 +6,8 @@ const SpotifyIFrame = styled.iframe`
 `
 
 const Spotify = () => (
-  <SpotifyIFrame 
-    src="https://open.spotify.com/follow/1/?uri=spotify:artist:2GnSTnxs3NcFhxJNOrSb92&size=detail&theme=light&show-count=0"
+  <SpotifyIFrame
+    src="https://open.spotify.com/follow/1/?uri=spotify:artist:2GnSTnxs3NcFhxJNOrSb92?si=sfbm5--dSgi19YxGs3Tqdw&size=detail&theme=light&show-count=0"
     width="300"
     height="56"
     scrolling="no"
