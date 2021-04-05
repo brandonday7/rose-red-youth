@@ -48,6 +48,7 @@ const Eras = styled.div`
 
   @media (max-width: 600px) {
     flex-direction: column;
+    transform: translateY(-70px);
 
     & > * {
       margin: 40px 0;
@@ -101,7 +102,7 @@ const Center = styled.div`
   justify-content: center;
   align-items: center;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   margin-bottom: 20px;
 `
