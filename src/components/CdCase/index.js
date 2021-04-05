@@ -28,6 +28,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #f2f0d6;
+  /* background-color: #4e7069; */
   font-family: "Arial";
 `
 
