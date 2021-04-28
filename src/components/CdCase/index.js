@@ -144,7 +144,7 @@ class CdCase extends Component {
             <Ep>Rose Red Youth Ep</Ep>
           </StyledLink>
           <a
-            href="https://distrokid.com/hyperfollow/roseredyouth/lets-just-be-friends"
+            href="https://open.spotify.com/album/5voVWK4bMWYcxns3wPlTS7?si=GHGGrng8QY-IzI_GKAy4pw"
             target="_blank"
             rel="noopener noreferrer"
           >
